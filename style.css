@@ -1,0 +1,46 @@
+/* Animated Gradient Background for Hero */
+.hero-section {
+    background: linear-gradient(-45deg, #1a2a6c, #b21f1f, #fdbb2d, #21d4fd);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    padding: 80px 0;
+}
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Glassmorphism Weather Cards */
+.weather-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    color: rgb(194, 28, 28);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #dd2476, #ff512f);
+    transform: scale(1.05);
+}
+
+/* About Section */
+.about-section {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Footer */
+footer {
+    background: rgba(0,0,0,0.7);
+}
